@@ -9,8 +9,11 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-	<feature name="InAppBrowser">
-    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
 	</feature>
 
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <engine name="browser" spec="~5.0.3" />
+    <plugin name="cordova-plugin-inappbrowser" spec="~2.0.1" />
 </widget>
