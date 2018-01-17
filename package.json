@@ -1,0 +1,17 @@
+{
+  "name": "com.phonegap.helloworld",
+  "version": "1.0.0",
+  "displayName": "Loja",
+  "cordova": {
+    "platforms": [
+      "browser"
+    ],
+    "plugins": {
+      "cordova-plugin-splashscreen": {}
+    }
+  },
+  "dependencies": {
+    "cordova-browser": "~5.0.3",
+    "cordova-plugin-splashscreen": "^5.0.1"
+  }
+}
