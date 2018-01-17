@@ -17,6 +17,17 @@
     <engine name="browser" spec="~5.0.3" />
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.1" />
 	
+	<platform name="android">
+		<!-- you can use any density that exists in the Android project -->
+
+        <icon src="www/res/icon/android/duosystem-ldpi.png" density="ldpi" />
+        <icon src="www/res/icon/android/duosystem-mdpi.png" density="mdpi" />
+        <icon src="www/res/icon/android/duosystem-hdpi.png" density="hdpi" />
+        <icon src="www/res/icon/android/duosystem-xhdpi.png" density="xhdpi" />
+        <icon src="www/res/icon/android/duosystem-xxhdpi.png" density="xxhdpi" />
+        <icon src="www/res/icon/android/duosystem-xxxhdpi.png" density="xxxhdpi" />
+	</platform>
+
 
 	<!-- Configuration using image size: -->
 	<!--<platform name="windows">
